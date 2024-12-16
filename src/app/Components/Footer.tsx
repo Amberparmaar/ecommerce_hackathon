@@ -1,18 +1,14 @@
-
-
 import React from "react";
 import Image from "next/image";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa"; // Example social icons
 import { SiGithub } from "react-icons/si";
 
-
 function Footer() {
   return (
-    <footer className="bg-[#F2F0F1] py-10">
+    <footer className="max-w-screen-2xl mx-auto bg-[#F2F0F1] py-10">
       {/* Footer Section */}
       <div className="container max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16">
         <div className="flex flex-col md:flex-row lg:flex-row items-start gap-8">
-
           {/* About Shop.co */}
           <div className="lg:w-1/4">
             <h3 className="font-extrabold text-4xl mb-4 text-black hover:scale-y-150 transition-all">
@@ -28,14 +24,12 @@ function Footer() {
               <FaFacebookF className="text-gray-800 hover:text-blue-500 cursor-pointer" />
               <FaInstagram className="text-gray-800 hover:text-pink-500 cursor-pointer" />
               <FaTwitter className="text-gray-800 hover:text-blue-400 cursor-pointer" />
-              <SiGithub className="text-gray-800 hover:text-blue-400 cursor-pointer"  />
-
+              <SiGithub className="text-gray-800 hover:text-blue-400 cursor-pointer" />
             </div>
           </div>
 
           {/* Links: Company, Help, FAQ, Resources */}
           <div className="flex flex-col md:flex-row lg:flex-row lg:w-3/4 gap-8">
-            
             {/* Company */}
             <div className="lg:w-1/4">
               <h3 className="font-bold text-lg mb-4 text-black hover:scale-y-150 transition-all">
@@ -43,16 +37,24 @@ function Footer() {
               </h3>
               <ul className="space-y-2 text-gray-600">
                 <li>
-                  <a href="#" className="hover:underline">About</a>
+                  <a href="#" className="hover:underline">
+                    About
+                  </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">Features</a>
+                  <a href="#" className="hover:underline">
+                    Features
+                  </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">Works</a>
+                  <a href="#" className="hover:underline">
+                    Works
+                  </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">Career</a>
+                  <a href="#" className="hover:underline">
+                    Career
+                  </a>
                 </li>
               </ul>
             </div>
@@ -64,16 +66,24 @@ function Footer() {
               </h3>
               <ul className="space-y-2 text-gray-600">
                 <li>
-                  <a href="#" className="hover:underline">Customer Support</a>
+                  <a href="#" className="hover:underline">
+                    Customer Support
+                  </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">Delivery Details</a>
+                  <a href="#" className="hover:underline">
+                    Delivery Details
+                  </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">Terms & Conditions</a>
+                  <a href="#" className="hover:underline">
+                    Terms & Conditions
+                  </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">Privacy Policy</a>
+                  <a href="#" className="hover:underline">
+                    Privacy Policy
+                  </a>
                 </li>
               </ul>
             </div>
@@ -85,16 +95,24 @@ function Footer() {
               </h3>
               <ul className="space-y-2 text-gray-600">
                 <li>
-                  <a href="#" className="hover:underline">Account</a>
+                  <a href="#" className="hover:underline">
+                    Account
+                  </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">Manage Deliveries</a>
+                  <a href="#" className="hover:underline">
+                    Manage Deliveries
+                  </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">Orders</a>
+                  <a href="#" className="hover:underline">
+                    Orders
+                  </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">Payments</a>
+                  <a href="#" className="hover:underline">
+                    Payments
+                  </a>
                 </li>
               </ul>
             </div>
@@ -106,16 +124,24 @@ function Footer() {
               </h3>
               <ul className="space-y-2 text-gray-600">
                 <li>
-                  <a href="#" className="hover:underline">Free eBooks</a>
+                  <a href="#" className="hover:underline">
+                    Free eBooks
+                  </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">Development Tutorial</a>
+                  <a href="#" className="hover:underline">
+                    Development Tutorial
+                  </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">How to - Blog</a>
+                  <a href="#" className="hover:underline">
+                    How to - Blog
+                  </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">Youtube Playlist</a>
+                  <a href="#" className="hover:underline">
+                    Youtube Playlist
+                  </a>
                 </li>
               </ul>
             </div>
@@ -145,4 +171,3 @@ function Footer() {
 }
 
 export default Footer;
-

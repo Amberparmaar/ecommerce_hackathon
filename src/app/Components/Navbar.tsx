@@ -52,12 +52,16 @@ function Navbar() {
                 </Link>
                 <select name="" id=""></select>
               </div>
-              <a
-                href="#"
-                className="block md:inline font-bold hover:scale-110 px-4 py-2 md:px-0"
-              >
-                On Sale
-              </a>
+              <div className="md:inline font-bold hover:scale-110 px-4 py-3 md:px-0">
+                {/* Corrected Link for Shop page */}
+                <Link
+                  href="http://localhost:3000/Casual"
+                  className="block md:inline font-bold hover:scale-110 px-4 py-3 md:px-0"
+                >
+                  On Sale
+                </Link>
+                <select name="" id=""></select>
+              </div>
               <a
                 href="#"
                 className="block md:inline font-bold hover:scale-110 px-4 py-2 md:px-0"
@@ -73,7 +77,7 @@ function Navbar() {
             </div>
 
             {/* Search Bar */}
-            <div className="relative mt-4 md:mt-0">
+            <div className="relative mt-4 md:mt-0 hidden sm:hidden md:block">
               <input
                 type="text"
                 placeholder="Search for products..."
@@ -96,8 +100,16 @@ function Navbar() {
             </div>
 
             {/* Icons (Cart, Profile) */}
-            <div className="flex items-center space-x-4 mt-4 md:mt-0">
-              <IoCartOutline className="hover:scale-125" />
+            <div className="flex items-center space-x-4 mt-4 md:mt-0 ">
+              <div className="font-bold hover:scale-110 px-4 py-3 md:px-0 xs:hidden md:block">
+                <Link
+                  href="http://localhost:3000/Cart"
+                  className="block md:inline font-bold hover:scale-110 px-4 py-3 md:px-0"
+                >
+                  <IoCartOutline className="hover:scale-125" />
+                </Link>
+              </div>
+
               <CgProfile className="hover:scale-125" />
             </div>
           </div>

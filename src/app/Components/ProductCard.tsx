@@ -10,9 +10,9 @@ function ProductCard() {
       </div>
 
       {/* div container */}
-      <div className="space-x-6 justify-center flex sm:flex-col  md:flex-row ">
+      <div className="space-x-6 justify-center flex flex-col md:flex-row sm:flex-col ">
         {/* Card 1 */}
-        <div className="max-w-sm dark:bg-gray-800 rounded-lg hover:scale-125">
+        <div className="max-w-sm dark:bg-gray-800 rounded-lg hover:scale-105">
           <a href="#">
             <img
               className="p-8 rounded-t-lg"
@@ -20,7 +20,7 @@ function ProductCard() {
               alt="product image"
             />
           </a>
-          <div className="px-5 pb-5">
+          <div className="px-5 pb-5 ">
             <a href="#">
               <h5 className="text-md font-semibold tracking-tight text-gray-900 dark:text-white">
                 T-SHIRT WITH TAPE DETAILS
@@ -85,7 +85,7 @@ function ProductCard() {
           </div>
         </div>
         {/* Card 2 */}
-        <div className="max-w-sm dark:bg-gray-800 rounded-lg hover:scale-125">
+        <div className="max-w-sm dark:bg-gray-800 rounded-lg hover:scale-105">
           <a href="#">
             <img
               className="p-8 rounded-t-lg"
@@ -166,7 +166,7 @@ function ProductCard() {
           </div>
         </div>
         {/* Card 3 */}
-        <div className="max-w-sm  dark:bg-gray-800 rounded-lg hover:scale-125">
+        <div className="max-w-sm  dark:bg-gray-800 rounded-lg hover:scale-105">
           <a href="#">
             <img
               className="p-8 rounded-t-lg"
@@ -239,7 +239,7 @@ function ProductCard() {
           </div>
         </div>
         {/* Card 4 */}
-        <div className="max-w-sm dark:bg-gray-800 rounded-lg hover:scale-125">
+        <div className="max-w-sm dark:bg-gray-800 rounded-lg hover:scale-105">
           <a href="#">
             <img
               className="p-8 rounded-t-lg"
@@ -330,7 +330,7 @@ function ProductCard() {
       {/* top selling */}
 
       <div className="flex justify-center">
-        <h3 className="lg:text-5xl md:text-4xl font-extrabold hover:scale-125 text-black mt-10">
+        <h3 className="lg:text-5xl md:text-4xl font-extrabold hover:scale-105 text-black mt-10">
           TOP SELLING
         </h3>
       </div>
@@ -338,7 +338,7 @@ function ProductCard() {
       {/* div container */}
       <div className="space-x-6 justify-center flex flex-col md:flex-row sm:flex-col">
         {/* Card 1 */}
-        <div className="max-w-sm dark:bg-gray-800 rounded-lg hover:scale-125">
+        <div className="max-w-sm dark:bg-gray-800 rounded-lg hover:scale-105">
           <a href="#">
             <img
               className="p-8 rounded-t-lg"
@@ -419,7 +419,7 @@ function ProductCard() {
           </div>
         </div>
         {/* Card 2 */}
-        <div className="max-w-sm dark:bg-gray-800 rounded-lg hover:scale-125">
+        <div className="max-w-sm dark:bg-gray-800 rounded-lg hover:scale-105">
           <a href="#">
             <img
               className="p-8 rounded-t-lg"
@@ -492,7 +492,7 @@ function ProductCard() {
           </div>
         </div>
         {/* Card 3 */}
-        <div className="max-w-sm  dark:bg-gray-800 rounded-lg hover:scale-125">
+        <div className="max-w-sm  dark:bg-gray-800 rounded-lg hover:scale-105">
           <a href="#">
             <img
               className="p-8 rounded-t-lg"
@@ -565,7 +565,7 @@ function ProductCard() {
           </div>
         </div>
         {/* Card 4 */}
-        <div className="max-w-sm dark:bg-gray-800 rounded-lg hover:scale-125">
+        <div className="max-w-sm dark:bg-gray-800 rounded-lg hover:scale-105">
           <a href="#">
             <img
               className="p-8 rounded-t-lg"
